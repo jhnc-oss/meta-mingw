@@ -1,0 +1,3 @@
+desc=Layer for mingw based SDKs
+section=-Yocto Metadata Layers - Autobuilder Tested
+hide=0

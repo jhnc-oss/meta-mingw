@@ -12,7 +12,7 @@ inherit autotools nativesdk
 BUILDSDK_CPPFLAGS:append = " -isystem${STAGING_INCDIR}"
 
 INHIBIT_DEFAULT_DEPS = "1"
-DEPENDS = "nativesdk-mingw-w64-headers virtual/${TARGET_PREFIX}gcc "
+DEPENDS = "nativesdk-mingw-w64-headers virtual/nativesdk-cross-cc "
 
 PROVIDES += "virtual/nativesdk-libc"
 

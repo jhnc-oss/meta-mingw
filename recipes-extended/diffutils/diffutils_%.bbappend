@@ -5,7 +5,7 @@ CFLAGS:append:mingw32 = " -DSIGALRM=14 -DSIGHUP=1 -DSIGQUIT=3 -DSIGPIPE=13 -DSIG
 
 SRC_URI:append:mingw32 = "\
        file://0001-sdiff-Match-execvp-argument-types.patch \
-       file://0002-Define-stricoll-as-_stricoll-on-mingw.patch"
+       "
 
 do_configure:prepend:mingw32 () {
     # Remove building of "man" and "gnulib-tests". The tests don't

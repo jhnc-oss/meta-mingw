@@ -15,7 +15,7 @@ SRC_URI = "${GNU_MIRROR}/${BPN}/${BPN}-${PV}.tar.gz"
 
 SRC_URI[sha256sum] = "3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8"
 
-S = "${WORKDIR}/libiconv-${PV}"
+S = "${UNPACKDIR}/libiconv-${PV}"
 
 inherit autotools pkgconfig gettext
 

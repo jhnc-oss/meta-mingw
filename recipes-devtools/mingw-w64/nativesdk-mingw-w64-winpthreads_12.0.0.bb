@@ -2,7 +2,7 @@ DESCRIPTION = "Winpthreads runtime libraries from MinGW-w64 project"
 
 require mingw-w64.inc
 
-S = "${WORKDIR}/mingw-w64-v${PV}/mingw-w64-libraries/winpthreads"
+S = "${UNPACKDIR}/mingw-w64-v${PV}/mingw-w64-libraries/winpthreads"
 B = "${WORKDIR}/build-${TARGET_SYS}"
 
 inherit autotools nativesdk

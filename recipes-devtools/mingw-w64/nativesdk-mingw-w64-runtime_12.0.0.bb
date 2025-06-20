@@ -4,7 +4,7 @@ require mingw-w64.inc
 
 #SRC_URI += "file://0001-crt-Fix-a-typo-in-the-ucrt-__imp_vfscanf-assignment.patch;striplevel=2"
 
-S = "${WORKDIR}/mingw-w64-v${PV}/mingw-w64-crt"
+S = "${UNPACKDIR}/mingw-w64-v${PV}/mingw-w64-crt"
 B = "${WORKDIR}/build-${TARGET_SYS}"
 
 inherit autotools nativesdk
